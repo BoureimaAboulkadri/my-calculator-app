@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  front-end:
+    build: ./my-calculator-app
+    ports:cd
+      - "80:80"
+  # Ajoutez d'autres services ici (par exemple, votre API FastAPI)

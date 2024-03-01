@@ -1,0 +1,41 @@
+.export-csv {
+  display: block;
+  margin: 20px auto;
+  padding: 15px;
+  font-size: 1.2em;
+  background-color: #4caf50; /* Vert, similaire au bouton equals */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  width: 80%; /* Ajustez la largeur selon vos besoins */
+}
+
+.export-csv:hover {
+  background-color: #6fbf73; /* Une nuance de vert plus claire au survol */
+}
+
+/* Optionnel: Ajoutez une icône ou un texte spécifique pour indiquer l'export CSV */
+.export-csv:before {
+  content: '📥 Export CSV'; /* Exemple avec une icône et du texte */
+  font-weight: bold;
+}
+
+.data-preview table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.data-preview th, .data-preview td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.data-preview th {
+  background-color: #4caf50;
+  color: white;
+}
